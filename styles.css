@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+input {
+    width: 300px;
+}
+
+h1{
+    font-size: 35px;
+    align-items: center;
+}
+#form {
+    width: 550px;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(35, 34, 34) ;
+    background-color: white;
+    padding: 10px 50px;
+    color: rgb(189, 76, 76);
+}
+
+
+#first_name {
+    display: flex;
+    gap: 0px 60px ;
+    margin: 10px 0px;
+}
+#last_name {
+    display: flex;
+    gap: 0px 61px;
+    margin: 10px 0px;
+
+}
+#gender{
+    display: flex;
+    gap: 0px 85px;
+    margin: 10px 0px;
+
+}
+#gender #input{
+    display: flex;
+    gap: 0px 10px;
+    margin: 0;
+}
+.gender {
+    width: auto;
+}
+
+#phone_number {
+    display: flex;
+    margin: 10px 0px;
+
+}
+#age{
+    display: flex;
+    gap: 0px 109px;
+    margin: 10px 0px;
+
+}
+#datetime{
+    display: flex;
+    gap: 0px 48px;
+    margin: 10px 0px;
+
+}
+.datetime{
+    width: 300px;
+}
+#email{
+    display: flex;
+    gap: 0px 38px;
+    margin: 10px 0px;
+
+}
+#password{
+    display: flex;
+    gap: 0px 70px;
+    margin: 10px 0px;
+
+}
+#password_confirm{
+    display: flex;
+    gap: 0px 9px;
+    margin: 10px 0px;
+
+}
+#phone_number{
+    display: flex;
+    gap: 0px 30px;
+    margin: 10px 0px;
+
+}
+#phone_number select{
+    width: 43px;
+    /* margin: 10px 0px; */
+
+}
+#phone_number #select{
+    display: flex;
+    gap: 0px 10px;
+    /* width: 170px; */
+    /* margin: 10px 0px; */
+
+}
+.phone_number{
+    width: 246px;
+}
+#address{
+    display: flex;
+    gap: 0px 80px;
+    margin: 10px 0px;
+
+}
+#address_area{
+    width: 300px;
+    height: 150px;
+}
+#state{
+    display: flex;
+    gap: 0px 102px;
+    margin: 10px 0px;
+
+}
+#state select{
+    width: 300px;
+}
+#pin_code{
+    display: flex;
+    gap: 0px 75px;
+    margin: 10px 0px;
+
+}
+#hobby{
+    display: flex;
+    gap: 0px 80px;
+    margin: 10px 0px;
+
+}
+#input_hobby{
+    display: flex;
+    gap: 0px 10px;
+}
+#input_hobby input{
+    width: auto;
+}
+#photo{
+    display: flex;
+    gap: 0px 38px;
+    margin: 10px 0px;
+
+}
+#agree{
+    display: flex;
+    gap: 0px 15px;
+}
+.agree{
+    width: auto;
+}
+#button{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    
+} 
+#button input{
+    width: 200px;
+    background: rgb(229,11,11);
+    background: linear-gradient(172deg, rgba(229,11,11,1) 2%, rgba(32,22,74,1) 62%, rgba(33,4,219,1) 100%);
+    color: white;
+    font-weight: bold ;
+}
